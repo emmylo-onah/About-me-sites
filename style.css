@@ -1,40 +1,19 @@
-body {
-  background-color: #fefefe;
-  font-family: Arial, sans-serif;
-  color: #333;
-  padding: 20px;
-}
+contact.html
+---------------------------
 
-img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 12px;
-}
-
-h2 {
-  text-align: center;
-  color: #ff6600;
-}
-
-.fun-facts {
-  background-color: #fff8e1;
-  border: 2px dashed #ff9800;
-  padding: 15px;
-  border-radius: 12px;
-  margin-top: 20px;
-}
-
-.my-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.my-button:hover {
-  background-color: #0056b3;
-}
+<html>
+    <head>
+        <title>My Contact Page</title>
+    </head>
+    <body>
+        <h1>Welcome to my contact page</h1>
+        <hr />
+        <ul>
+            <li><b>Phone number:</b> 08011111222</li>
+            <li><b>Email address:</b> example@gmail.com</li>
+            <li><b>House address:</b> Abuja</li>
+        </ul>
+        <hr />
+        <a href="index.html">Return back</a>
+    </body>
+</html>
